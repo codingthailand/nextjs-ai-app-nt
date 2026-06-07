@@ -8,7 +8,7 @@ export default function AppHeader() {
     <div>
         <h1>Hello Header</h1>
         <AppButton />
-        <p>Cosci SWU</p>
+        <p>Ecommerce</p>
         {
           students.length > 0 ? <p>พบข้อมูลนักศึกษา</p> : <p>ไม่พบข้อมูล...</p>
         }

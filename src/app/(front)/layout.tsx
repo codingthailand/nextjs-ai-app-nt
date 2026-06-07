@@ -4,7 +4,7 @@ import FrontNavbar from "@/components/front-navbar";
 import "../globals.css";
 
 export const metadata: Metadata = {
-  title: "ระบบ E-Commerce COSCI",
+  title: "ระบบ E-Commerce",
   description: "เรียนรู้การเขียน Nex.tjs",
 };
 
