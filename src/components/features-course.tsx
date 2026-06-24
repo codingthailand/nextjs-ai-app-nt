@@ -1,8 +1,8 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
+import type { Course } from "@/types/course";
 import Image from "next/image";
 
 type Props = {
-  courses: any[];
+  courses: Course[];
 }
 
 const FeaturesCourse = ({ courses }: Props) => {
