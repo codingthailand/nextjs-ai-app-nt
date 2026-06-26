@@ -9,12 +9,12 @@ interface RevenueRow {
 }
 
 export async function GET(request: Request) {
-  try {
-    const session = await auth.api.getSession({ headers: request.headers })
-    if (!session || session.user.role !== "admin") {
-      return NextResponse.json({ success: false, error: "Unauthorized" }, { status: 401 })
-    }
+  const session = await auth.api.getSession({ headers: request.headers })
+  if (!session || session.user.role !== "admin") {
+    return NextResponse.json({ success: false, error: "Unauthorized" }, { status: 401 })
+  }
 
+  try {
     const { searchParams } = new URL(request.url)
     const period = searchParams.get("period") ?? "30d"
 
