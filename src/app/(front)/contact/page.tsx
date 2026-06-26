@@ -20,7 +20,7 @@ export default function ContactPage() {
               <div>
                 <p className="font-medium">อีเมล</p>
                 <p className="text-sm text-muted-foreground">
-                  hello@example.com
+                  ake@gmail.com
                 </p>
               </div>
             </div>
@@ -38,7 +38,7 @@ export default function ContactPage() {
               <div>
                 <p className="font-medium">เวลาทำการ</p>
                 <p className="text-sm text-muted-foreground">
-                  จันทร์ - ศุกร์ 09:00 - 18:00 น.
+                  จันทร์ - ศุกร์ 09:00 - 19:00 น.
                 </p>
               </div>
             </div>

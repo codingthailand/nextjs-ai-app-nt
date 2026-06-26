@@ -99,10 +99,10 @@ export default function AboutPage() {
           <Badge asChild variant="outline" className="border-border mb-6">
             <Link href="#">
               <Sparkles className="mr-1.5 h-3.5 w-3.5" />
-              เรื่องราวของเรา
+              เรื่องราวของเรา (About Us)
             </Link>
           </Badge>
-          <h1 className="font-heading text-4xl font-bold leading-[1.15] md:text-5xl lg:text-6xl">
+          <h1 className="font-heading text-2xl font-bold leading-[1.15] md:text-5xl lg:text-6xl">
             แพลตฟอร์มอีคอมเมิร์ซ
             <br />
             <span className="text-primary">ที่คุณวางใจได้</span>
