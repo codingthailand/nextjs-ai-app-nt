@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-3xl text-center">
         <Badge asChild variant="outline" className="border-border mb-2">
           <Link href="#">
-            ✨ Welcome to NT
+            ✨ Welcome to NT 2026
           </Link>
         </Badge>
 
